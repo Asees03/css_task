@@ -1,0 +1,60 @@
+body{
+    background-color: coral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head{
+    color: darkblue;
+}
+
+#bglime{
+    background-color: lime;
+    color: red;
+    font-size: 30px;
+}
+
+p{
+    color: white;
+}
+
+#para{
+    color: green;
+}
+
+#para::first-line{
+    color: white;
+}
+
+p:last-of-type::first-letter{
+    color: black;
+    font-size: 16px;
+}
+
+h3{
+    color:cornsilk;
+}
+
+ul{
+    font-size: 10px;
+    color:white;
+}
+
+a:hover{
+    color: red;
+}
+
+a[href="https://www.upskillmafia.com/"]{
+    background-color: gold;
+}
+
+ol{
+    font-size: medium;
+}
+
+ol li:nth-child(2){
+    color:red;
+}
+
+ol li:nth-child(3){
+    color:red;
+}
