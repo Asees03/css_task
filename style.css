@@ -1,60 +1,98 @@
-body{
-    background-color: coral;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+body {
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.head{
+
+.container {
+    background-color: coral;
+    border: 4px solid black;
+    margin: 30px;
+    padding: 5px;
+}
+
+
+.head {
     color: darkblue;
 }
 
-#bglime{
-    background-color: lime;
-    color: red;
+h1 {
+    font-size: 36px;
+}
+
+
+#bglime {
+    background-color: #66ff66;
+    color: darkblue;
     font-size: 30px;
 }
 
-p{
-    color: white;
+
+#bglime span {
+    color: red;
 }
 
-#para{
+
+h4 {
+    color: darkblue;
+    font-size: 10px;
+}
+
+
+p {
+    color: white;
+    font-size: 14px;
+}
+
+#para {
     color: green;
+    font-size: 14px;
 }
 
-#para::first-line{
-    color: white;
+
+.special-word {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-p:last-of-type::first-letter{
+
+h3 {
     color: black;
     font-size: 16px;
 }
 
-h3{
-    color:cornsilk;
-}
-
-ul{
+ul {
+    color: white;
     font-size: 10px;
-    color:white;
 }
 
-a:hover{
+
+a {
+    color: blue;
+}
+
+
+a[href="https://www.upskillmafia.com/"] {
+    background-color: yellow;
+}
+
+
+a[href="https://www.google.com/"] {
+    background-color: blue;
+    color: white;
+}
+
+
+ol {
+    font-size: 16px;
+}
+
+ol li:nth-child(2) {
+    color: blue;
+}
+
+ol li:nth-child(3) {
     color: red;
-}
-
-a[href="https://www.upskillmafia.com/"]{
-    background-color: gold;
-}
-
-ol{
-    font-size: medium;
-}
-
-ol li:nth-child(2){
-    color:red;
-}
-
-ol li:nth-child(3){
-    color:red;
 }
